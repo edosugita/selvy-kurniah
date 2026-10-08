@@ -4,32 +4,32 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Selvy Kurniah — HR & Legal</title>
-<meta name="description" content="Portofolio Selvy Kurniah: Sarjana Hukum yang bekerja di irisan hukum ketenagakerjaan dan pengembangan SDM.">
+<meta name="description" content="Portofolio Selvy Kurniah: lulusan hukum yang kerja di irisan hukum ketenagakerjaan dan HR.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#F6F8F7;
+  --bg:#F1F8FF;
   --surface:#FFFFFF;
-  --ink:#14211F;
-  --muted:#52625F;
-  --line:#DCE4E1;
-  --teal:#0F6B62;
-  --teal-deep:#0A4A44;
-  --mint:#DDF2EC;
-  --sun:#FFCF4A;
-  --sun-soft:#FFF1C2;
-  --sky:#DCE9F9;
-  --plum:#EADDF5;
-  --on-teal:#F2FBF8;
+  --ink:#0B2A4A;
+  --muted:#46617E;
+  --line:#CBE2F6;
+  --teal:#1E63F0;
+  --teal-deep:linear-gradient(135deg,#1E5BEA 0%,#12A6E4 100%);
+  --mint:#C7F5F0;
+  --sun:#19D6C8;
+  --sun-soft:#CDF8F4;
+  --sky:#CDE3FF;
+  --plum:#BFEEFF;
+  --on-teal:#FFFFFF;
   --font:"Plus Jakarta Sans","Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
 }
 @media (prefers-color-scheme:dark){
   :root{
-    --bg:#0E1615;--surface:#16211F;--ink:#E8F0EE;--muted:#9DB1AD;--line:#273734;
-    --teal:#5CC9B8;--teal-deep:#0A3A35;--mint:#12302C;--sun:#FFCF4A;--sun-soft:#3A3114;
-    --sky:#15283D;--plum:#2A1F38;--on-teal:#EAF8F4;
+    --bg:#07182B;--surface:#0E2540;--ink:#EAF4FF;--muted:#A8C2DE;--line:#1E3C5E;
+    --teal:#5DB2FF;--teal-deep:linear-gradient(135deg,#1747B8 0%,#0E86B8 100%);--mint:#0C3E48;--sun:#19D6C8;--sun-soft:#0F4A4F;
+    --sky:#12356A;--plum:#0F4560;--on-teal:#FFFFFF;
   }
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -45,7 +45,7 @@ header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 8
 .bar{display:flex;align-items:center;justify-content:space-between;height:68px;gap:20px}
 .brand{font-weight:800;font-size:1.15rem;text-decoration:none;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
 .brand i{font-style:normal;display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--teal);color:var(--on-teal);font-size:.85rem}
-@media (prefers-color-scheme:dark){.brand i{color:#07201C}}
+@media (prefers-color-scheme:dark){.brand i{color:#04142B}}
 .links{display:flex;gap:6px;list-style:none;align-items:center}
 .links a{display:block;text-decoration:none;font-weight:600;font-size:.95rem;color:var(--muted);padding:8px 14px;border-radius:99px;transition:background .15s,color .15s}
 .links a:hover{background:var(--mint);color:var(--ink)}
@@ -57,7 +57,7 @@ header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 8
 .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center}
 .status{display:inline-flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);padding:7px 16px 7px 12px;border-radius:99px;font-size:.92rem;font-weight:600;margin-bottom:26px}
 .status::before{content:"";width:9px;height:9px;border-radius:50%;background:#2FBF71;box-shadow:0 0 0 4px rgba(47,191,113,.2)}
-h1{font-size:clamp(2.5rem,5.4vw,4.3rem);line-height:1.04;letter-spacing:-.035em;font-weight:800}
+h1{font-size:clamp(2.4rem,5.2vw,4.1rem);line-height:1.06;letter-spacing:-.035em;font-weight:800}
 h1 .wave{display:inline-block;transform-origin:70% 70%;animation:wave 2.2s ease-in-out 0.6s 1}
 @keyframes wave{0%,60%,100%{transform:rotate(0)}10%,30%,50%{transform:rotate(16deg)}20%,40%{transform:rotate(-8deg)}}
 .hero p.intro{margin-top:24px;font-size:1.2rem;color:var(--muted);max-width:33em}
@@ -65,16 +65,16 @@ h1 .wave{display:inline-block;transform-origin:70% 70%;animation:wave 2.2s ease-
 .btn{display:inline-block;text-decoration:none;font-weight:700;padding:14px 26px;border-radius:14px;border:2px solid var(--ink);transition:transform .15s,background .15s,color .15s}
 .btn.main{background:var(--ink);color:var(--bg)}
 .btn.main:hover{background:var(--teal);border-color:var(--teal);color:var(--on-teal)}
-.btn.ghost:hover{background:var(--sun);border-color:var(--sun);color:#14211F}
+.btn.ghost:hover{background:var(--sun);border-color:var(--sun);color:#0B2540}
 
 .card-me{background:var(--teal-deep);color:var(--on-teal);border-radius:28px;padding:34px 30px;position:relative;overflow:hidden}
 .card-me::after{content:"";position:absolute;right:-60px;top:-60px;width:190px;height:190px;border-radius:50%;background:var(--sun);opacity:.95}
-.avatar{position:relative;z-index:1;width:84px;height:84px;border-radius:24px;background:var(--mint);color:var(--teal-deep);display:grid;place-items:center;font-weight:800;font-size:1.8rem;letter-spacing:-.03em}
+.avatar{position:relative;z-index:1;width:84px;height:84px;border-radius:24px;background:var(--mint);color:var(--teal);display:grid;place-items:center;font-weight:800;font-size:1.8rem;letter-spacing:-.03em}
 .card-me h2{position:relative;z-index:1;margin-top:22px;font-size:1.5rem;letter-spacing:-.02em;line-height:1.2}
-.card-me p{position:relative;z-index:1;margin-top:6px;color:#B7DAD2;font-size:.98rem}
+.card-me p{position:relative;z-index:1;margin-top:6px;color:#E3F2FF;font-size:.98rem}
 .facts{position:relative;z-index:1;list-style:none;margin-top:24px;border-top:1px solid rgba(255,255,255,.2)}
 .facts li{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.2);font-size:.95rem}
-.facts span{color:#B7DAD2}
+.facts span{color:#E3F2FF}
 .facts b{font-weight:700;text-align:right}
 
 /* Section generic */
@@ -100,8 +100,8 @@ h2.title{font-size:clamp(1.9rem,3.6vw,2.6rem);letter-spacing:-.03em;line-height:
 .tile p{margin-top:14px;font-size:1rem;line-height:1.5}
 .tile small{display:block;margin-top:12px;font-size:.85rem;opacity:.75;font-weight:600}
 .t1{grid-column:span 3;background:var(--teal-deep);color:var(--on-teal)}
-.t1 small{color:#B7DAD2;opacity:1}
-.t2{grid-column:span 3;background:var(--sun);color:#14211F}
+.t1 small{color:#E3F2FF;opacity:1}
+.t2{grid-column:span 3;background:var(--sun);color:#0B2540}
 .t3,.t4,.t5,.t6{grid-column:span 3}
 .t3{background:var(--mint)}
 .t4{background:var(--sky)}
@@ -126,19 +126,18 @@ details.job summary::-webkit-details-marker{display:none}
 .job-org{color:var(--muted);font-weight:600;margin-top:2px}
 .job-meta{display:flex;align-items:center;gap:14px}
 .when{font-size:.9rem;font-weight:600;background:var(--bg);border:1px solid var(--line);padding:5px 14px;border-radius:99px;white-space:nowrap}
-.now .when{background:var(--sun);border-color:var(--sun);color:#14211F}
+.now .when{background:var(--sun);border-color:var(--sun);color:#0B2540}
 .plus{width:34px;height:34px;border-radius:50%;background:var(--mint);position:relative;flex:none;transition:transform .2s,background .2s}
 .plus::before,.plus::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;background:var(--teal);transform:translate(-50%,-50%);border-radius:2px}
 .plus::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform .2s}
 details[open] .plus{background:var(--teal)}
 details[open] .plus::before,details[open] .plus::after{background:var(--on-teal)}
-@media (prefers-color-scheme:dark){details[open] .plus::before,details[open] .plus::after{background:#07201C}}
+@media (prefers-color-scheme:dark){details[open] .plus::before,details[open] .plus::after{background:#04142B}}
 details[open] .plus::after{transform:translate(-50%,-50%) rotate(0)}
 .job-body{padding:0 28px 28px}
 .job-body ul{list-style:none;display:grid;gap:12px;max-width:46em}
 .job-body li{position:relative;padding-left:26px}
 .job-body li::before{content:"";position:absolute;left:2px;top:.62em;width:10px;height:10px;border-radius:3px;background:var(--sun);transform:rotate(45deg)}
-.hint{margin-top:18px;font-size:.92rem;color:var(--muted)}
 
 /* Belajar */
 .learn{display:grid;grid-template-columns:1.2fr 1fr;gap:20px}
@@ -165,13 +164,13 @@ details[open] .plus::after{transform:translate(-50%,-50%) rotate(0)}
 .contact::before{content:"";position:absolute;left:-70px;bottom:-90px;width:240px;height:240px;border-radius:50%;background:var(--sun);opacity:.95}
 .contact > *{position:relative;z-index:1}
 .contact h2{font-size:clamp(2rem,4.4vw,3.2rem);letter-spacing:-.035em;line-height:1.08;font-weight:800}
-.contact p{margin:16px auto 0;color:#B7DAD2;max-width:30em;font-size:1.1rem}
+.contact p{margin:16px auto 0;color:#E3F2FF;max-width:30em;font-size:1.1rem}
 .contact .hero-actions{justify-content:center}
-.contact .btn.main{background:var(--sun);border-color:var(--sun);color:#14211F}
+.contact .btn.main{background:var(--sun);border-color:var(--sun);color:#0B2540}
 .contact .btn.main:hover{background:#fff;border-color:#fff}
-.contact .btn.ghost{border-color:#B7DAD2;color:var(--on-teal)}
-.contact .btn.ghost:hover{background:var(--on-teal);border-color:var(--on-teal);color:#0A3A35}
-.reach{margin-top:30px;font-size:.98rem;color:#B7DAD2}
+.contact .btn.ghost{border-color:#E3F2FF;color:var(--on-teal)}
+.contact .btn.ghost:hover{background:var(--on-teal);border-color:var(--on-teal);color:#0A2A66}
+.reach{margin-top:30px;font-size:.98rem;color:#E3F2FF}
 .reach a{color:var(--on-teal);font-weight:600}
 footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem}
 
@@ -217,11 +216,11 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
   <div class="hero">
     <div class="wrap hero-grid">
       <div>
-        <div class="status">Saat ini di PT. Bumi Nusantara Adiperkasa</div>
-        <h1>Halo, saya Selvy <span class="wave" aria-hidden="true">👋</span><br>Saya merapikan aturan dan menumbuhkan orang.</h1>
-        <p class="intro">Sarjana Hukum yang bekerja di irisan hukum ketenagakerjaan dan SDM. Saya suka bikin sistem kerja yang jelas, adil, dan enak dijalani bersama.</p>
+        <div class="status">Lagi seru-serunya di PT. Bumi Nusantara Adiperkasa</div>
+        <h1>Halo, saya Selvy <span class="wave" aria-hidden="true">👋</span><br>Saya bantu bikin aturan kerja yang jelas dan tim yang terus tumbuh.</h1>
+        <p class="intro">Profesional di bidang hukum dan SDM.</p>
         <div class="hero-actions">
-          <a class="btn main" href="#hasil">Lihat hasil kerja saya</a>
+          <a class="btn main" href="#hasil">Intip hasil kerja saya</a>
           <a class="btn ghost" href="#kontak">Hubungi saya</a>
         </div>
       </div>
@@ -244,24 +243,24 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
   <section id="tentang">
     <div class="wrap">
       <div class="sec-head">
-        <h2 class="title">Kerja saya kira-kira seperti ini</h2>
-        <p>Sejak 2023 saya berpindah-pindah antara rumah sakit, perusahaan logistik, dan perusahaan saat ini. Bidangnya beda, tapi benang merahnya sama: bikin aturan yang jelas dan orang yang siap menjalankannya.</p>
+        <h2 class="title">Sehari-hari saya ngerjain apa?</h2>
+        <p>Sejak 2023 saya sudah keliling dari rumah sakit, perusahaan logistik, sampai tempat kerja yang sekarang. Bidangnya beda-beda, tapi intinya sama: bikin aturan yang jelas dan bantu orang-orangnya siap menjalankannya.</p>
       </div>
       <div class="about-grid">
         <div class="about a1">
           <div class="ico" aria-hidden="true">📑</div>
-          <h3>Aturan yang bisa dipakai sehari-hari</h3>
-          <p>Peraturan Perusahaan, kebijakan, SOP, dan perjanjian kerja (PKWT, PKWTT, perjanjian mitra) yang rapi secara hukum dan mudah dipahami.</p>
+          <h3>Aturan yang gampang dipakai</h3>
+          <p>Peraturan Perusahaan, kebijakan, SOP, sampai perjanjian kerja (PKWT, PKWTT, perjanjian mitra). Aman secara hukum, tapi tetap enak dibaca.</p>
         </div>
         <div class="about a2">
           <div class="ico" aria-hidden="true">🤝</div>
-          <h3>Hubungan kerja yang tetap sehat</h3>
-          <p>Mengelola hubungan industrial lewat dialog dua arah, supaya masalah selesai lebih awal. Kalau sudah terlanjur, saya terbiasa menyelesaikannya lewat mediasi.</p>
+          <h3>Hubungan kerja yang tetap adem</h3>
+          <p>Saya suka ngajak ngobrol dua arah supaya masalah kelar sebelum membesar. Kalau sudah terlanjur, biasanya saya bantu lewat mediasi.</p>
         </div>
         <div class="about a3">
           <div class="ico" aria-hidden="true">🌱</div>
-          <h3>Orang yang terus berkembang</h3>
-          <p>Uji kompetensi, pelatihan jenjang karier, dan program leadership untuk menyiapkan talent pipeline di berbagai level.</p>
+          <h3>Orang yang terus tumbuh</h3>
+          <p>Bikin uji kompetensi, pelatihan jenjang karier, dan program leadership supaya talenta di tiap level siap naik kelas.</p>
         </div>
       </div>
     </div>
@@ -271,49 +270,49 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
   <section id="hasil">
     <div class="wrap">
       <div class="sec-head">
-        <h2 class="title">Beberapa hasil yang saya banggakan</h2>
-        <p>Angka-angka ini datang dari pekerjaan nyata di rumah sakit dan perusahaan tempat saya bekerja.</p>
+        <h2 class="title">Beberapa hasil yang bikin saya bangga</h2>
+        <p>Angka-angka ini datang dari kerjaan nyata di rumah sakit dan perusahaan tempat saya bekerja.</p>
       </div>
       <div class="bento">
         <div class="tile t1">
           <div class="num">37,5%</div>
           <div>
-            <p>Efisiensi biaya dari Rencana Kerja dan Anggaran (RKA) Legal, dibandingkan anggaran tahun sebelumnya.</p>
+            <p>Biaya berhasil dihemat lewat Rencana Kerja dan Anggaran (RKA) Legal, dibanding anggaran tahun sebelumnya.</p>
             <small>RS. Mitra Masyarakat Timika</small>
           </div>
         </div>
         <div class="tile t2">
           <div class="num">21%</div>
           <div>
-            <p>Relasi kerja sama meningkat lewat perikatan pihak ketiga yang dinegosiasikan dengan mitigasi risiko hukum.</p>
+            <p>Relasi kerja sama naik lewat perikatan dengan pihak ketiga yang saya negosiasikan, sambil tetap menjaga risiko hukum.</p>
             <small>RS. Mitra Masyarakat Timika</small>
           </div>
         </div>
         <div class="tile t3">
           <div class="num">25</div>
           <div>
-            <p>SOP disusun, bersama 3 kebijakan dan 1 Peraturan Perusahaan yang diajukan ke Disnaker.</p>
+            <p>SOP yang saya susun, plus 3 kebijakan dan 1 Peraturan Perusahaan yang diajukan ke Disnaker.</p>
             <small>PT. Bumi Nusantara Adiperkasa</small>
           </div>
         </div>
         <div class="tile t4">
           <div class="num">29</div>
           <div>
-            <p>Karyawan (Management, Leader, Senior, PIC) mengikuti program leadership yang saya jalankan.</p>
+            <p>Karyawan (Management, Leader, Senior, PIC) ikut program leadership yang saya jalankan.</p>
             <small>PT. Bumi Nusantara Adiperkasa</small>
           </div>
         </div>
         <div class="tile t5">
           <div class="num">6</div>
           <div>
-            <p>Karyawan Associate dipersiapkan naik ke Senior lewat uji kompetensi dan pelatihan.</p>
+            <p>Karyawan Associate saya siapkan naik ke Senior lewat uji kompetensi dan pelatihan.</p>
             <small>PT. Bumi Nusantara Adiperkasa</small>
           </div>
         </div>
         <div class="tile t6">
           <div class="num">13</div>
           <div>
-            <p>Karyawan Senior jadi mitra dialog rutin saya lewat forum dua arah, untuk menjaga keharmonisan kerja. Di rumah sakit, saya juga membantu menyelesaikan perselisihan PHK lewat mediasi dan melengkapi kebutuhan akreditasi sub-TKRS dengan nilai sempurna.</p>
+            <p>Karyawan Senior jadi teman ngobrol rutin saya lewat forum dua arah, supaya suasana kerja tetap harmonis. Di rumah sakit, saya juga membantu menyelesaikan perselisihan PHK lewat mediasi dan memenuhi kebutuhan akreditasi sub-TKRS sampai dapat nilai sempurna.</p>
           </div>
         </div>
       </div>
@@ -325,7 +324,7 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
     <div class="wrap">
       <div class="sec-head">
         <h2 class="title">Perjalanan karier saya</h2>
-        <p>Dari yang terbaru. Klik tiap bagian untuk melihat apa saja yang saya kerjakan.</p>
+        <p>Dari yang terbaru. Klik tiap kartu buat lihat apa saja yang saya kerjakan.</p>
       </div>
       <div class="jobs">
 
@@ -339,10 +338,10 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
           </summary>
           <div class="job-body">
             <ul>
-              <li>Menyusun uji kompetensi dan pelatihan jenjang karier; mempersiapkan 6 karyawan Associate naik ke Senior.</li>
-              <li>Melatih 29 karyawan (Management, Leader, Senior, PIC) dalam program leadership untuk membangun talent pipeline.</li>
-              <li>Menyusun 25 SOP, 3 kebijakan, dan 1 Peraturan Perusahaan (diajukan untuk pengesahan Disnaker) guna memitigasi risiko hukum dan menjaga kepatuhan ketenagakerjaan.</li>
-              <li>Mengelola hubungan industrial dengan 13 karyawan Senior melalui forum dialog dua arah untuk menjaga keharmonisan kerja dan mencegah perselisihan.</li>
+              <li>Bikin uji kompetensi dan pelatihan jenjang karier, dan menyiapkan 6 karyawan Associate naik ke Senior.</li>
+              <li>Melatih 29 karyawan (Management, Leader, Senior, PIC) lewat program leadership untuk membangun talent pipeline.</li>
+              <li>Menyusun 25 SOP, 3 kebijakan, dan 1 Peraturan Perusahaan (diajukan ke Disnaker) supaya risiko hukum terkendali dan kepatuhan ketenagakerjaan terjaga.</li>
+              <li>Ngobrol rutin lewat forum dua arah dengan 13 karyawan Senior, supaya suasana kerja tetap harmonis dan perselisihan bisa dicegah sejak awal.</li>
             </ul>
           </div>
         </details>
@@ -357,9 +356,9 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
           </summary>
           <div class="job-body">
             <ul>
-              <li>Merevisi dan merapikan dokumen perjanjian hukum (PKWT, PKWTT, dan Perjanjian Mitra) untuk memitigasi risiko hukum.</li>
-              <li>Mengelola administrasi HR: database karyawan, rekap absensi harian, dan penggajian (payroll) mingguan.</li>
-              <li>Memimpin morning briefing mingguan untuk karyawan lapangan (driver, mekanik, dan krani) guna memperkuat komunikasi dan efisiensi kerja operasional.</li>
+              <li>Merapikan dan merevisi dokumen perjanjian (PKWT, PKWTT, dan Perjanjian Mitra) supaya risiko hukumnya kecil.</li>
+              <li>Pegang administrasi HR: database karyawan, rekap absensi harian, dan payroll mingguan.</li>
+              <li>Memimpin morning briefing mingguan buat karyawan lapangan (driver, mekanik, dan krani) supaya komunikasi lancar dan kerja operasional lebih efisien.</li>
             </ul>
           </div>
         </details>
@@ -374,12 +373,12 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
           </summary>
           <div class="job-body">
             <ul>
-              <li>Menerbitkan Peraturan Perusahaan (disahkan Disnaker), kebijakan, SOP Legal dan HR, MSBL, dan NSBL untuk menjamin kepatuhan terhadap regulasi di Indonesia.</li>
-              <li>Menyusun Rencana Kerja dan Anggaran (RKA) Legal yang menghasilkan efisiensi biaya 37,5% dari anggaran tahun sebelumnya.</li>
-              <li>Menegosiasikan perikatan dengan pihak ketiga dengan mitigasi risiko hukum, meningkatkan relasi kerja sama 21%.</li>
-              <li>Melengkapi kebutuhan akreditasi sub–Tata Kelola Rumah Sakit (TKRS) dengan nilai sempurna.</li>
-              <li>Menyelesaikan perselisihan PHK melalui mediasi.</li>
-              <li>Mengintegrasikan arsip dokumen Legal dan HR dalam satu file utama yang tersinkronisasi.</li>
+              <li>Menerbitkan Peraturan Perusahaan (disahkan Disnaker), kebijakan, SOP Legal dan HR, MSBL, dan NSBL supaya semuanya patuh regulasi di Indonesia.</li>
+              <li>Menyusun RKA Legal yang berhasil menghemat biaya 37,5% dari anggaran tahun sebelumnya.</li>
+              <li>Menegosiasikan perikatan dengan pihak ketiga sambil menjaga risiko hukum, dan relasi kerja sama naik 21%.</li>
+              <li>Memenuhi kebutuhan akreditasi sub-Tata Kelola Rumah Sakit (TKRS) sampai dapat nilai sempurna.</li>
+              <li>Menyelesaikan perselisihan PHK lewat mediasi.</li>
+              <li>Menyatukan arsip dokumen Legal dan HR ke satu file utama yang selalu sinkron, jadi lebih rapi dan mudah dicek.</li>
             </ul>
           </div>
         </details>
@@ -394,10 +393,10 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
           </summary>
           <div class="job-body">
             <ul>
-              <li>Menyusun notulen dan mengoordinasikan rapat Pengurus, Pembina, dan Pengawas untuk mendukung keputusan strategis.</li>
-              <li>Mengelola dokumen legal, corporate records, dan surat keputusan yayasan secara tertib dan mudah diakses.</li>
-              <li>Mengawasi kepatuhan administratif terhadap regulasi dan tata kelola (corporate governance), termasuk perizinan dan akreditasi rumah sakit.</li>
-              <li>Mengoordinasikan komunikasi dengan Direksi rumah sakit, konsultan hukum, dan regulator, serta menyusun proposal kegiatan yayasan.</li>
+              <li>Bikin notulen dan mengatur rapat Pengurus, Pembina, dan Pengawas, supaya keputusan penting bisa berjalan.</li>
+              <li>Merapikan dokumen legal, corporate records, dan surat keputusan yayasan supaya tertib dan gampang diakses.</li>
+              <li>Menjaga kepatuhan administratif terhadap regulasi dan tata kelola (corporate governance), termasuk perizinan dan akreditasi rumah sakit.</li>
+              <li>Jadi penghubung antara Direksi rumah sakit, konsultan hukum, dan regulator, sekaligus menyusun proposal kegiatan yayasan.</li>
             </ul>
           </div>
         </details>
@@ -411,14 +410,14 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
     <div class="wrap">
       <div class="sec-head">
         <h2 class="title">Latar belakang belajar</h2>
-        <p>Dasar hukum dari kampus, diperkuat sertifikasi profesi yang langsung relevan dengan pekerjaan sehari-hari.</p>
+        <p>Dasar hukum dari bangku kuliah, lalu diperdalam lewat sertifikasi profesi yang langsung nyambung dengan kerjaan sehari-hari.</p>
       </div>
       <div class="learn">
         <div class="panel">
           <h3>Sarjana Hukum</h3>
           <div class="sub">Universitas Tarumanagara · 2019–2023</div>
           <span class="gpa">IPK 3,83 dari 4,00</span>
-          <p class="txt">Saya menerbitkan jurnal hukum terindeks SINTA 4 berjudul <em>Keabsahan Insentif Sebagai Pengganti Pembayaran Upah Kerja Lembur Bagi Pekerja</em>, topik yang sampai sekarang sangat dekat dengan pekerjaan saya di ketenagakerjaan.</p>
+          <p class="txt">Saya menerbitkan jurnal hukum terindeks SINTA 4 berjudul <em>Keabsahan Insentif Sebagai Pengganti Pembayaran Upah Kerja Lembur Bagi Pekerja</em>. Topiknya masih dekat banget dengan kerjaan saya di bidang ketenagakerjaan.</p>
         </div>
         <div class="certs">
           <div class="cert">
@@ -451,13 +450,13 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
         </div>
       </div>
       <div class="skill-block">
-        <h3>Alat yang sehari-hari saya pakai</h3>
+        <h3>Alat andalan sehari-hari</h3>
         <div class="chips">
           <span>MS Office</span><span>Google Workspace</span><span>Canva</span><span>Claude AI</span>
         </div>
       </div>
       <div class="skill-block">
-        <h3>Bahasa dan lainnya</h3>
+        <h3>Bahasa dan lain-lain</h3>
         <div class="chips">
           <span>Bahasa Indonesia</span><span>Bahasa Inggris</span><span>SIM A</span><span>SIM C</span>
         </div>
@@ -469,13 +468,13 @@ footer{padding:36px 0 48px;text-align:center;color:var(--muted);font-size:.92rem
   <section id="kontak">
     <div class="wrap">
       <div class="contact">
-        <h2>Cocok untuk tim Anda? Ngobrol yuk.</h2>
-        <p>Kalau ada peluang kerja, kolaborasi, atau sekadar ingin tahu lebih banyak tentang pengalaman saya, kirim saja pesan. Saya senang berdiskusi.</p>
+        <h2>Merasa cocok? Yuk ngobrol.</h2>
+        <p>Kalau ada peluang kerja, ajakan kolaborasi, atau cuma penasaran sama pengalaman saya, kirim pesan aja. Saya senang ngobrol.</p>
         <div class="hero-actions">
           <a class="btn main" href="mailto:selvykbisnis@gmail.com">Kirim email</a>
           <a class="btn ghost" href="https://linkedin.com/in/Selvy-Kurniah" target="_blank" rel="noopener">Buka LinkedIn</a>
         </div>
-        <p class="reach">Atau hubungi langsung di <a href="tel:+6281220014884">+62 812 2001 4884</a></p>
+        <p class="reach">Atau langsung hubungi di <a href="tel:+6281220014884">+62 812 2001 4884</a></p>
       </div>
     </div>
   </section>
